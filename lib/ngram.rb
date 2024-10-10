@@ -9,7 +9,7 @@ class NGram
     end
 
     def parse(phrase)
-        words = phrase.split(@separator)
+        words = phrase.split(@word_separator)
         if words.length == 1
             process(phrase)
         else

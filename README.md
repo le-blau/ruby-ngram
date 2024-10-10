@@ -18,7 +18,7 @@ ngram = NGram.new({
   :word_separator => " ",
   :padchar => "_"
 })
-# => #<NGram:0x10d9877f0 @padchar="_", @separator=" ", @size=2>
+# => #<NGram:0x10d9877f0 @padchar="_", @word_separator=" ", @size=2>
 
 ngram.parse('test')
 # => ["__", "_t", "te", "es", "st", "t_", "__"]
